@@ -20,6 +20,10 @@
 PRODUCT_PACKAGES += \
     DeviceParts
 
+# tri-state-key
+PRODUCT_PACKAGES += \
+    tri-state-key_daemon
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
